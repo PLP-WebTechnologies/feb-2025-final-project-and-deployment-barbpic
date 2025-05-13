@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Essential Cooking Tips | My Blog</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">My Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="../categories/travel.html">Travel</a></li>
+                    <li><a href="../categories/food.html" class="active">Food</a></li>
+                    <li><a href="../categories/tech.html">Tech</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="post-main">
+        <article class="post-article">
+            <div class="container">
+                <div class="post-header">
+                    <h2>5 Essential Cooking Tips for Home Chefs</h2>
+                    <div class="post-meta">
+                        <img src="../images/avatar.jpg" alt="Author" class="author-avatar">
+                        <div>
+                            <p class="author-name">Jane Doe</p>
+                            <p class="post-date">Posted on April 28, 2023 in <a href="../categories/food.html">Food</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="post-content">
+                    <img src="../images/post2.jpg" alt="Cooking Ingredients" class="post-featured-image">
+                    
+                    <p>After years of experimenting in the kitchen and learning from professional chefs, I've compiled these essential cooking tips that will transform your home cooking experience. Whether you're a beginner or an experienced cook, these techniques will elevate your dishes to restaurant quality.</p>
+                    
+                    <h3>1. Master Knife Skills</h3>
+                    <p>A sharp knife and proper cutting techniques are the foundation of good cooking. Invest in a quality chef's knife and keep it sharp. Learn basic cuts like julienne, brunoise, and chiffonade. Uniform cuts ensure even cooking and professional presentation.</p>
+                    
+                    <div class="tip-image">
+                        <img src="../images/post2.jpg" alt="Knife cutting vegetables">
+                        <p class="image-caption">Proper knife technique makes food preparation faster and safer</p>
+                    </div>
+                    
+                    <h3>2. Season in Layers</h3>
+                    <p>Don't wait until the end to season your food. Add salt and other seasonings at each stage of cooking to build depth of flavor. Remember: you can always add more seasoning, but you can't take it out!</p>
+                    
+                    <h3>3. Control Your Heat</h3>
+                    <p>Understanding heat control is crucial. High heat is great for searing meats, while low and slow heat works wonders for tough cuts. Most home cooks use heat that's too high - don't be afraid to turn it down for better control.</p>
+                    
+                    <blockquote>
+                        "Cooking is an art, but all art requires knowing something about the techniques and materials." - Nathan Myhrvold
+                    </blockquote>
+                    
+                    <h3>4. Mise en Place</h3>
+                    <p>This French term means "everything in its place." Prepare all your ingredients before you start cooking. Chop vegetables, measure spices, and have everything ready to go. This makes the cooking process smoother and less stressful.</p>
+                    
+                    <h3>5. Taste as You Go</h3>
+                    <p>Constantly tasting your food as you cook is the best way to ensure a delicious final product. Adjust seasoning gradually and trust your palate.</p>
+                    
+                    <div class="post-tags">
+                        <span class="tag">Cooking</span>
+                        <span class="tag">Tips</span>
+                        <span class="tag">Techniques</span>
+                        <span class="tag">Food</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <section class="comments-section">
+            <div class="container">
+                <h3>Comments (2)</h3>
+                
+                <div class="comment">
+                    <img src="../images/avatar.jpg" alt="User" class="comment-avatar">
+                    <div class="comment-content">
+                        <h4>Emily Rodriguez <span class="comment-date">April 30, 2023</span></h4>
+                        <p>The tip about seasoning in layers completely changed my cooking! My dishes have so much more flavor now. Thank you!</p>
+                    </div>
+                </div>
+                
+                <div class="comment">
+                    <img src="../images/avatar.jpg" alt="User" class="comment-avatar">
+                    <div class="comment-content">
+                        <h4>Carlos Mendez <span class="comment-date">April 29, 2023</span></h4>
+                        <p>Do you have any recommendations for a good beginner chef's knife? I'm just starting to build my kitchen tools.</p>
+                    </div>
+                </div>
+                
+                <form class="comment-form" id="comment-form">
+                    <h3>Leave a Comment</h3>
+                    <div class="form-group">
+                        <input type="text" id="comment-name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="comment-email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="comment-message" rows="5" placeholder="Your Comment" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Post Comment</button>
+                </form>
+            </div>
+        </section>
+        
+        <section class="related-posts">
+            <div class="container">
+                <h3>More Food Posts</h3>
+                <div class="posts-grid">
+                    <article class="post-card">
+                        <img src="../images/post2.jpg" alt="Italian Pasta">
+                        <div class="post-content">
+                            <h4>Authentic Italian Pasta Recipes</h4>
+                            <p class="post-meta">Posted on February 15, 2023</p>
+                            <p>Learn to make traditional pasta dishes from different regions of Italy...</p>
+                            <a href="../posts/italian-pasta.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Adventure | My Blog</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">My Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="../categories/travel.html">Travel</a></li>
+                    <li><a href="../categories/food.html">Food</a></li>
+                    <li><a href="../categories/tech.html">Tech</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="post-main">
+        <article class="post-article">
+            <div class="container">
+                <div class="post-header">
+                    <h2>My Travel Adventure in the Swiss Alps</h2>
+                    <div class="post-meta">
+                        <img src="../images/avatar.jpg" alt="Author" class="author-avatar">
+                        <div>
+                            <p class="author-name">Jane Doe</p>
+                            <p class="post-date">Posted on May 10, 2023 in <a href="../categories/travel.html">Travel</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="post-content">
+                    <img src="../images/post1.jpg" alt="Swiss Alps" class="post-featured-image">
+                    
+                    <p>Last summer, I embarked on what would become one of the most memorable journeys of my life - a two-week trek through the breathtaking Swiss Alps. The experience was nothing short of magical, filled with stunning vistas, challenging trails, and encounters with wonderful people.</p>
+                    
+                    <h3>The Journey Begins</h3>
+                    <p>I started my adventure in the picturesque village of Grindelwald, nestled at the foot of the Eiger. The morning air was crisp as I set out with my backpack, containing just the essentials: a change of clothes, some snacks, my camera, and of course, my trusty hiking boots.</p>
+                    
+                    <p>The first day's hike took me through lush green meadows dotted with wildflowers, the sound of cowbells echoing through the valleys. As I gained elevation, the views became increasingly spectacular, with snow-capped peaks appearing on the horizon.</p>
+                    
+                    <h3>Challenges and Rewards</h3>
+                    <p>Day three presented the most challenging part of the trek - the ascent to the Schreckhorn hut at 2,500 meters. The path was steep and narrow in places, requiring careful footing. But the effort was rewarded with panoramic views that made every aching muscle worth it.</p>
+                    
+                    <blockquote>
+                        "Mountains are not stadiums where I satisfy my ambition to achieve, they are the cathedrals where I practice my religion." - Anatoli Boukreev
+                    </blockquote>
+                    
+                    <p>One of the most unexpected delights was the camaraderie among fellow hikers at the mountain huts each evening. Strangers became friends as we shared stories over steaming bowls of rösti and cups of hot chocolate.</p>
+                    
+                    <h3>Lessons Learned</h3>
+                    <p>This journey taught me several valuable lessons:</p>
+                    <ul>
+                        <li>The importance of preparation and respecting mountain weather</li>
+                        <li>How little we actually need to be happy</li>
+                        <li>The joy of disconnecting from technology and reconnecting with nature</li>
+                        <li>That physical challenges often lead to mental breakthroughs</li>
+                    </ul>
+                    
+                    <p>As I descended on the final day, my body was tired but my spirit was rejuvenated. The Swiss Alps had given me more than just beautiful photos - they had given me a new perspective on life.</p>
+                    
+                    <div class="post-tags">
+                        <span class="tag">Travel</span>
+                        <span class="tag">Adventure</span>
+                        <span class="tag">Switzerland</span>
+                        <span class="tag">Hiking</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <section class="comments-section">
+            <div class="container">
+                <h3>Comments (3)</h3>
+                
+                <div class="comment">
+                    <img src="../images/avatar.jpg" alt="User" class="comment-avatar">
+                    <div class="comment-content">
+                        <h4>Michael Johnson <span class="comment-date">May 12, 2023</span></h4>
+                        <p>Your description of the mountain huts brought back so many memories! I did a similar trek last year and completely agree about the unexpected friendships formed along the way.</p>
+                    </div>
+                </div>
+                
+                <div class="comment">
+                    <img src="../images/avatar.jpg" alt="User" class="comment-avatar">
+                    <div class="comment-content">
+                        <h4>Sarah Williams <span class="comment-date">May 11, 2023</span></h4>
+                        <p>Stunning photos! I've always wanted to visit the Swiss Alps. How difficult would you say this trek is for a beginner hiker?</p>
+                    </div>
+                </div>
+                
+                <div class="comment">
+                    <img src="../images/avatar.jpg" alt="User" class="comment-avatar">
+                    <div class="comment-content">
+                        <h4>David Chen <span class="comment-date">May 10, 2023</span></h4>
+                        <p>That quote from Boukreev is one of my favorites. It perfectly captures why we're drawn to mountains. Thanks for sharing your experience!</p>
+                    </div>
+                </div>
+                
+                <form class="comment-form" id="comment-form">
+                    <h3>Leave a Comment</h3>
+                    <div class="form-group">
+                        <input type="text" id="comment-name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="comment-email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="comment-message" rows="5" placeholder="Your Comment" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Post Comment</button>
+                </form>
+            </div>
+        </section>
+        
+        <section class="related-posts">
+            <div class="container">
+                <h3>More Travel Posts</h3>
+                <div class="posts-grid">
+                    <article class="post-card">
+                        <img src="../images/post1.jpg" alt="
